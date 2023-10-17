@@ -1,0 +1,9 @@
+#number {
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
