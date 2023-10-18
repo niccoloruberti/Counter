@@ -1,6 +1,7 @@
 <h3 align="center">Counter</h3>
-
-![Screenshot dell'Applicazione](img/Screenshot.png)
+<div align="center">
+  ![Screenshot dell'Applicazione](img/Screenshot.png)
+</div>
 
   <p align="center">
     In questo progetto ho sviluppato un semplice counter con due bottoni che ti permettono di decrementare e incrementare il valore del counter.
