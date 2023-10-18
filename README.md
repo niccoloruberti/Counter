@@ -1,6 +1,6 @@
 <h3 align="center">Counter</h3>
 <div align="center">
-  ![Screenshot dell'Applicazione](img/Screenshot.png)
+  <img src="img/Screenshot.png" alt="Screenshot dell'Applicazione">
 </div>
 
   <p align="center">
