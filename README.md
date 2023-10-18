@@ -1,6 +1,5 @@
 
-[![Contributors][contributors-shield]][https://github.com/niccoloruberti]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/niccoló-ruberti-637b56290/]
+[![LinkedIn](https://www.google.com/url?sa=i&url=https%3A%2F%2Fit.freepik.com%2Ffoto-vettori-gratuito%2Flinkedin-logo&psig=AOvVaw2BKYFn2dSrBUo-xTHZdWmi&ust=1697710121327000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICjwJit_4EDFQAAAAAdAAAAABAJ)](https://www.linkedin.com/in/niccoló-ruberti-637b56290/)
 
 
 <h3 align="center">Counter</h3>
@@ -12,15 +11,11 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+È possibile utilizzare il counter tramite il seguente link: [https://counter-niccoloruberti.netlify.app/]
 
 <!-- CONTACT -->
 ## Contact
 
-niccoloruberti1999@gmil.com
+niccoloruberti1999@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/niccoloruberti/Counter)
+Project Link: [https://github.com/niccoloruberti/Counter]
