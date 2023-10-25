@@ -14,55 +14,57 @@ for (let i = 1; i <= 4; i++) {
     let newRow = row.cloneNode()
     let newCol12 = col12.cloneNode()
 
-    // alla prima riga aggiungo il titolo
-    if (i === 1) {
-        newRow.className = 'row mt-5'
-        let h1 = document.createElement('h1')
-        h1.textContent = 'Counter'
-        h1.className = 'text-center'
-        newCol12.appendChild(h1)
-    }
+    switch (i) {
+        case 1:
+            // alla prima riga aggiungo il titolo
+            newRow.className = 'row mt-5'
+            let h1 = document.createElement('h1')
+            h1.textContent = 'Counter'
+            h1.className = 'text-center'
+            newCol12.appendChild(h1)
+            break
 
-    // alla seconda riga aggiungo il sottotitolo
-    if (i === 2) {
-        let label = document.createElement('label')
-        label.textContent = 'Utilizza i pulsanti per aumentare e diminuire il valore del counter'
-        label.className = 'text-center mb-5 w-100'
-        newCol12.appendChild(label)
-    }
+        case 2:
+            // alla seconda riga aggiungo il sottotitolo
+            let label = document.createElement('label')
+            label.textContent = 'Utilizza i pulsanti per aumentare e diminuire il valore del counter'
+            label.className = 'text-center mb-5 w-100'
+            newCol12.appendChild(label)
+            break
 
-    //alla terza riga aggiungo i bottoni e la visualizzazione del counter
-    if (i === 3) {
-        newCol12.className = 'col-12 d-flex justify-content-center'
-        // creo il bottone -
-        let buttonMin = document.createElement('button')
-        buttonMin.id = 'decrease'
-        buttonMin.className = 'btn btn-secondary'
-        buttonMin.addEventListener('click', decreaseNumber)
-        buttonMin.textContent = '-'
-        newCol12.appendChild(buttonMin)
-        // creo il contenitore del numero
-        let divNumber = document.createElement('div')
-        divNumber.id = 'number'
-        divNumber.textContent = 0
-        newCol12.appendChild(divNumber)
-        // creo il bottone +
-        let buttonAdd = document.createElement('button')
-        buttonAdd.id = 'increase'
-        buttonAdd.className = 'btn btn-secondary'
-        buttonAdd.addEventListener('click', increaseNumber)
-        buttonAdd.textContent = '+'
-        newCol12.appendChild(buttonAdd)
-    }
+        case 3:
+            // alla terza riga aggiungo i bottoni e il contenitore del contatore
+            newCol12.className = 'col-12 d-flex justify-content-center'
+            let buttonMin = document.createElement('button')
+            buttonMin.id = 'decrease'
+            buttonMin.className = 'btn btn-secondary'
+            buttonMin.addEventListener('click', decreaseNumber)
+            buttonMin.textContent = '-'
 
-    if (i === 4) {
-        newCol12.className = 'col-12 text-center mt-3'
-        //creo il bottone di reset
-        let buttonReset = document.createElement('button')
-        buttonReset.className = 'btn btn-danger'
-        buttonReset.addEventListener('click', reset)
-        buttonReset.textContent = 'Reset'
-        newCol12.appendChild(buttonReset)
+            let divNumber = document.createElement('div')
+            divNumber.id = 'number'
+            divNumber.textContent = 0
+
+            let buttonAdd = document.createElement('button')
+            buttonAdd.id = 'increase'
+            buttonAdd.className = 'btn btn-secondary'
+            buttonAdd.addEventListener('click', increaseNumber)
+            buttonAdd.textContent = '+'
+
+            newCol12.appendChild(buttonMin)
+            newCol12.appendChild(divNumber)
+            newCol12.appendChild(buttonAdd)
+            break
+
+        case 4:
+            // nell'ultima riga aggiungo il bottone di reset
+            newCol12.className = 'col-12 text-center mt-3'
+            let buttonReset = document.createElement('button')
+            buttonReset.className = 'btn btn-danger'
+            buttonReset.addEventListener('click', reset)
+            buttonReset.textContent = 'Reset'
+            newCol12.appendChild(buttonReset)
+            break
     }
 
     newRow.appendChild(newCol12)
