@@ -1,3 +1,8 @@
+// creo l'elemento riga
+let row = document.createElement('div')
+// creo l'elemento col-12
+let col12 = document.createElement('div')
+
 // funzione che mi permette di incrementare il valore del counter
 function increaseNumber() {
     let number = parseInt(document.getElementById('number').innerHTML)
