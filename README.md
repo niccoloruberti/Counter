@@ -1,6 +1,6 @@
 <h3 align="center">Counter</h3>
 <div align="center">
-  <img src="img/Screenshot.png" alt="Screenshot dell'Applicazione">
+  <img src="https://counter-niccoloruberti.netlify.app/assets/img/Screenshot.png" alt="Screenshot dell'Applicazione">
 </div>
 
   <p align="center">
